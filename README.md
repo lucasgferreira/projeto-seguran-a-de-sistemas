@@ -1,29 +1,14 @@
-# README #
+# EntregasJá #
+O que é este projeto ?
+Um sistema de credenciais para seguranca de sistemas 
+### Como Funciona ###
+* cadastre no sistema com até 3 niveis de acesso.
+### Utilização ###
 
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+### Versão ###
+* 1.0.0
+# Tecnologias Usadas #
+### Para este projeto foi utilizado as linguagens Java, MySQL e SQLite ###
+* [Java] - Linguagem para desenvolver o projeto!
+* [MySQL] - Banco De Dados utilizado no projeto!
+# Autores #
