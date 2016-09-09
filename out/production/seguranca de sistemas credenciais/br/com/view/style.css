@@ -1,0 +1,124 @@
+.backgroundWhite {
+  -fx-background-color: white;
+}
+.backgroundBlack {
+  -fx-background-color: linear-gradient(from 0% 100% to 0% 100%, #373636 0%, #505050 100%);
+}
+.backgroundBlack .label{
+  -fx-text-fill: white;
+}
+#login .label{
+  -fx-font-size: 14pt;
+  -fx-text-fill: #222;
+  -fx-font-family: "Arial";
+}
+#login #LBversao{
+  -fx-font-size: 10pt;
+  -fx-text-fill: white;
+  -fx-font-family: "Arial";
+}
+#bglogin{
+  -fx-background-image: url("img/logo.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 100%;
+  -fx-background-position: center center;
+}
+
+#ok{
+  -fx-background-color:#32CD32;
+  -fx-background-radius: 6, 6;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+  -fx-text-fill: white;
+  -fx-background-image: url("img/check.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 16 16;
+  -fx-background-position: 30% center;
+}
+#edit {
+  -fx-background-radius: 6, 6;
+  -fx-background-color: #FF8000;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+  -fx-text-fill: white;
+  -fx-background-image: url("../images/icons/edit.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 16 16;
+  -fx-background-position: 18% center;
+}
+
+#buttonNew{
+  -fx-background-color:#32CD32;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+  -fx-text-fill: white;
+  -fx-background-image: url("../images/icons/add.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 16 16;
+  -fx-background-position: 90 center;
+}
+#buttonEdit {
+  -fx-background-color: #FF8000;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+  -fx-text-fill: white;
+  -fx-background-image: url("../images/icons/edit.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 16 16;
+  -fx-background-position: 3 center;
+}
+
+#buttonRemove {
+  -fx-background-color:#e60000;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+  -fx-text-fill: white;
+  -fx-background-image: url("../images/icons/delete.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 16 16;
+  -fx-background-position: 3 center;
+
+}#labelWhite{
+  -fx-font-size: 14pt;
+  -fx-text-fill: white !important;
+}
+
+#buttonConclude {
+  -fx-background-color:#1E90FF;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+  -fx-text-fill: white;
+  -fx-background-image: url("../images/icons/check.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 16 16;
+  -fx-background-position: 3 center;
+}
+
+/*cadastro*/
+
+.combo-box{
+  -fx-background-color: white;
+  -fx-effect: dropshadow( one-pass-box , #222 , 2 , 0.0 , 0 , 0 );
+}
+.combo-box: focused{
+  -fx-effect: dropshadow( one-pass-box , #0B3861 , 5 , 0.0 , 0 , 0 );
+}
+ /*reload*/
+#reload{
+  -fx-background-color: DodgerBlue;
+  -fx-background-image: url("../images/icons/reload_white.png");
+  -fx-background-repeat: stretch;
+  -fx-background-position: 25% center;
+  -fx-background-size: 20 20;
+  -fx-text-fill: white;
+  -fx-background-radius: 5,5,5,5;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+
+/*hbox*/
+#backgroundBox {
+  -fx-text-fill: #222 !important;
+  -fx-background-color: white;
+  -fx-background-radius: 5,5,5,5;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+}
+#backgroundBox #box{
+  -fx-padding: 5px;
+}
+#backgroundBox .label{
+  -fx-text-fill: black;
+}
