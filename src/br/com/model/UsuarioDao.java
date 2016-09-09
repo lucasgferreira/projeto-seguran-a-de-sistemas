@@ -13,6 +13,7 @@ public class UsuarioDao {
     }
 
     public void setUsuario(String usuario) {
+
         this.usuario = usuario;
     }
 
