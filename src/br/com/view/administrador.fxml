@@ -13,17 +13,23 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<VBox alignment="TOP_CENTER" prefHeight="480.0" prefWidth="640.0" spacing="5.0" styleClass="backgroundBlack" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+<VBox alignment="TOP_CENTER" prefHeight="480.0" prefWidth="640.0" spacing="5.0" styleClass="backgroundBlack" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.102-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.controller.Administrador">
    <children>
       <HBox alignment="CENTER_RIGHT" prefHeight="50.0" spacing="5.0" styleClass="backgroundBlue">
          <children>
-            <Label text="Usuário" textFill="WHITE" />
+            <Label fx:id="LBuser" text="label" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font></Label>
+            <HBox HBox.hgrow="ALWAYS" />
             <Button mnemonicParsing="false" styleClass="backgroundDarkBlue" text="About" />
-            <Button mnemonicParsing="false" styleClass="backgroundDarkBlue" text="Exit" />
+            <Button mnemonicParsing="false" onAction="#onLogout" styleClass="backgroundDarkBlue" text="Logout" />
+            <Button mnemonicParsing="false" onAction="#onSair" styleClass="backgroundDarkBlue" text="Exit" />
          </children>
          <padding>
-            <Insets right="50.0" />
+            <Insets left="20.0" right="20.0" />
          </padding>
       </HBox>
       <VBox alignment="BOTTOM_CENTER" spacing="5.0" VBox.vgrow="ALWAYS">

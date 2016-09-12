@@ -42,7 +42,7 @@
   -fx-background-position: 10% center;
 }
 #buttonEdit {
-  -fx-background-color: #FF8000;
+  -fx-background-color: #FF5722;
   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
   -fx-text-fill: white;
   -fx-background-image: url("img/edit.png");

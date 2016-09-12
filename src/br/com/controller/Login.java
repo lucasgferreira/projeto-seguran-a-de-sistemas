@@ -16,6 +16,8 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 /**
  * Created by lucas on 08/09/16.
@@ -52,38 +54,52 @@ public class Login {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/administrador.fxml"));
                 Parent homePage = loader.load();
 
-                Perfil controller = loader.getController();
-                //controller.setUser(u);
+                Administrador ad = loader.getController();
+                ad.setUser(u);
 
-                Scene home_page_scene = new Scene(homePage);
-                Stage main_stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-                main_stage.close();
-                main_stage.setResizable(true);
-                main_stage.setHeight(480);
-                main_stage.setWidth(640);
-                main_stage.setScene(home_page_scene);
-                main_stage.setOnCloseRequest(e -> Platform.exit());
-                main_stage.setTitle("Administrador");
-                main_stage.show();
+                Node node = (Node) event.getSource();
+
+                Stage stage = (Stage) node.getScene().getWindow();
+                Parent root = null;
+                try {
+                    root = FXMLLoader.load(getClass().getResource("../view/administrador.fxml"));
+                } catch (IOException ex) {
+                    Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                Scene scene = new Scene(root);
+                stage.setScene(scene);
+                stage.setOnCloseRequest(event1 -> Platform.exit());
+                stage.setTitle("Administrador");
+                stage.setResizable(true);
+                stage.setMinHeight(480);
+                stage.setMinWidth(640);
+                stage.show();
             }
             else if (u.getModuloB() == true || u.getModuloC() == true){
 
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/perfil.fxml"));
                 Parent homePage = loader.load();
 
-                Perfil controller = loader.getController();
-                controller.setUser(u);
+                Perfil pf = loader.getController();
+                pf.setUser(u);
 
-                Scene home_page_scene = new Scene(homePage);
-                Stage main_stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-                main_stage.close();
-                main_stage.setResizable(true);
-                main_stage.setHeight(480);
-                main_stage.setWidth(640);
-                main_stage.setScene(home_page_scene);
-                main_stage.setOnCloseRequest(e -> Platform.exit());
-                main_stage.setTitle("Perfil");
-                main_stage.show();
+                Node node = (Node) event.getSource();
+
+                Stage stage = (Stage) node.getScene().getWindow();
+                Parent root = null;
+                try {
+                    root = FXMLLoader.load(getClass().getResource("../view/perfil.fxml"));
+                } catch (IOException ex) {
+                    Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
+                }
+                Scene scene = new Scene(root);
+                stage.setScene(scene);
+                stage.setOnCloseRequest(event1 -> Platform.exit());
+                stage.setTitle("Perfil");
+                stage.setResizable(true);
+                stage.setMinHeight(480);
+                stage.setMinWidth(640);
+                stage.show();
             }
             else if (u == null){
                 Alert e = new Alert(Alert.AlertType.INFORMATION);

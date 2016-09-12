@@ -8,7 +8,6 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
-import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -16,9 +15,9 @@ import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
- * Created by lucas on 11/09/16.
+ * Created by lucas on 12/09/16.
  */
-public class Perfil {
+public class Administrador {
 
     @FXML
     private Label LBuser;
@@ -47,5 +46,10 @@ public class Perfil {
         stage.setHeight(300);
         stage.setWidth(600);
         stage.show();
+    }
+
+    @FXML
+    private void onSair() {
+        Platform.exit();
     }
 }
