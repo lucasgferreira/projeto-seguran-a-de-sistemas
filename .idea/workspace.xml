@@ -2,44 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a75901-ed1d-4552-abbf-1c31389b00d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projeto-seguranca-de-sistemas.eml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/controller/Perfil.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/administrador.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/perfil.fxml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/home2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/money.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/navi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/reload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/reload_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/usuario.fxml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/view/img/home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/view/img/home2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/view/img/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/view/img/money.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/view/img/navi.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/view/img/reload.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/view/img/reload_white.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/view/usuario.fxml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Login.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Main.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Usuario.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Usuario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Dao.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Dao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/UsuarioDao.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/UsuarioDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilitarios/Modelo Entidade Relacionamento.mwb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilitarios/Modelo Entidade Relacionamento.mwb.bak" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Perfil.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/bg.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/bg2.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/img/save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/img/bg.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/img/bg2.JPG" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/img/bg2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/img/logout.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/img/save.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.project" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Utilitarios/login.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/administrador.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/perfil.fxml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projeto-seguranca-de-sistemas.userlibraries" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/login.fxml" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/style.css" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Login.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Main.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Usuario.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Usuario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/model/Dao.java" afterPath="$PROJECT_DIR$/src/br/com/model/Dao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" afterPath="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/login.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/login.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/style.css" afterPath="$PROJECT_DIR$/src/br/com/view/style.css" />
     </list>
     <ignored path="projeto-seguranca-de-sistemas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -194,6 +175,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projeto-seguranca-de-sistemas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projeto-seguranca-de-sistemas" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -543,6 +550,14 @@
       <option name="presentableId" value="Default" />
       <updated>1473688717713</updated>
     </task>
+    <task id="LOCAL-00001" summary="criação da tela de administrador e de perfil">
+      <created>1473689660990</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1473689660990</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -577,6 +592,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="criação da tela de administrador e de perfil" />
+    <option name="LAST_COMMIT_MESSAGE" value="criação da tela de administrador e de perfil" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
