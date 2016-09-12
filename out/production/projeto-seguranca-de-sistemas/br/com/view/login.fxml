@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox id="login" fx:id="VBlogin" spacing="20.0" styleClass="backgroundBlack" stylesheets="@style.css" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.controller.Login">
+<VBox id="login" fx:id="VBlogin" spacing="20.0" styleClass="backgroundBlack" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.102-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.controller.Login">
     <children>
         <HBox spacing="20.0">
             <children>
@@ -24,7 +24,7 @@
                             <children>
                                 <HBox id="box" alignment="CENTER">
                                     <children>
-                                        <Label text="usuário:">
+                                        <Label text="Usuário:">
                                             <padding>
                                                 <Insets right="5.0" />
                                             </padding>
@@ -45,7 +45,7 @@
                                 </Separator>
                                 <HBox id="box" alignment="CENTER">
                                     <children>
-                                        <Label text="  senha: " />
+                                        <Label text="  Senha: " />
                                         <PasswordField fx:id="PFsenha" alignment="CENTER" prefHeight="35.0" prefWidth="220.0" promptText="digite a senha" />
                                     </children>
                                     <opaqueInsets>
@@ -64,7 +64,7 @@
         </HBox>
         <VBox alignment="BOTTOM_CENTER" prefHeight="50.0">
             <children>
-                <Label id="LBversao" text="Gerenciador de login versão 1.0" />
+                <Label id="LBversao" text="sistema de autenticação versão 1.0" />
             </children>
         </VBox>
     </children>

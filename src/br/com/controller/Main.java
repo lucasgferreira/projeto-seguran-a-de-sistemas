@@ -20,7 +20,7 @@ public class Main extends Application {
         primaryStage.setHeight(320);
         primaryStage.setMaximized(false);
         primaryStage.setResizable(false);
-        primaryStage.getIcons().add(new Image("br/com/view/img/logo.png"));
+        primaryStage.getIcons().add(new Image("br/com/view/img/avatar.png"));
         primaryStage.show();
     }
     public static void main(String[] args) {

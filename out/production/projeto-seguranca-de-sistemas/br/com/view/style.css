@@ -1,12 +1,3 @@
-.backgroundWhite {
-  -fx-background-color: white;
-}
-.backgroundBlack {
-  -fx-background-color: linear-gradient(from 0% 100% to 0% 100%, #373636 0%, #505050 100%);
-}
-.backgroundBlack .label{
-  -fx-text-fill: white;
-}
 #login .label{
   -fx-font-size: 14pt;
   -fx-text-fill: #222;
@@ -18,12 +9,18 @@
   -fx-font-family: "Arial";
 }
 #bglogin{
-  -fx-background-image: url("img/logo.png");
+  -fx-background-image: url("img/avatar.png");
   -fx-background-repeat: stretch;
   -fx-background-size: 100%;
   -fx-background-position: center center;
 }
-
+#bgperfil{
+  -fx-background-image: url("img/bg2.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 90 160%;
+  -fx-background-position: right center;
+}
+/*button*/
 #ok{
   -fx-background-color:#32CD32;
   -fx-background-radius: 6, 6;
@@ -34,58 +31,60 @@
   -fx-background-size: 16 16;
   -fx-background-position: 30% center;
 }
-#edit {
-  -fx-background-radius: 6, 6;
-  -fx-background-color: #FF8000;
-  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
-  -fx-text-fill: white;
-  -fx-background-image: url("../images/icons/edit.png");
-  -fx-background-repeat: stretch;
-  -fx-background-size: 16 16;
-  -fx-background-position: 18% center;
-}
 
 #buttonNew{
   -fx-background-color:#32CD32;
   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
   -fx-text-fill: white;
-  -fx-background-image: url("../images/icons/add.png");
+  -fx-background-image: url("img/add.png");
   -fx-background-repeat: stretch;
   -fx-background-size: 16 16;
-  -fx-background-position: 90 center;
+  -fx-background-position: 10% center;
 }
 #buttonEdit {
   -fx-background-color: #FF8000;
   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
   -fx-text-fill: white;
-  -fx-background-image: url("../images/icons/edit.png");
+  -fx-background-image: url("img/edit.png");
   -fx-background-repeat: stretch;
   -fx-background-size: 16 16;
-  -fx-background-position: 3 center;
+  -fx-background-position: 10% center;
 }
-
 #buttonRemove {
   -fx-background-color:#e60000;
   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
   -fx-text-fill: white;
-  -fx-background-image: url("../images/icons/delete.png");
+  -fx-background-image: url("img/delete.png");
   -fx-background-repeat: stretch;
   -fx-background-size: 16 16;
-  -fx-background-position: 3 center;
-
-}#labelWhite{
+  -fx-background-position: 10% center;
+}
+#labelWhite{
   -fx-font-size: 14pt;
   -fx-text-fill: white !important;
 }
 
 #buttonConclude {
-  -fx-background-color:#1E90FF;
+  -fx-background-color: #673AB7;
   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
   -fx-text-fill: white;
-  -fx-background-image: url("../images/icons/check.png");
+  -fx-background-image: url("img/save.png");
   -fx-background-repeat: stretch;
   -fx-background-size: 16 16;
-  -fx-background-position: 3 center;
+  -fx-background-position: 10% center;
+}
+
+#buttonLogout {
+  -fx-background-color: transparent;
+  -fx-text-fill: white;
+  -fx-background-image: url("img/logout.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 16 16;
+  -fx-background-position: 10% center;
+}
+
+#buttonLogout:hover {
+  -fx-effect: dropshadow( one-pass-box , #fff , 5 , 0.0 , 0 , 0 );
 }
 
 /*cadastro*/
@@ -100,7 +99,7 @@
  /*reload*/
 #reload{
   -fx-background-color: DodgerBlue;
-  -fx-background-image: url("../images/icons/reload_white.png");
+  -fx-background-image: url("img/reload_white.png");
   -fx-background-repeat: stretch;
   -fx-background-position: 25% center;
   -fx-background-size: 20 20;
@@ -121,4 +120,80 @@
 }
 #backgroundBox .label{
   -fx-text-fill: black;
+}
+
+/*===========================tabela style========================*/
+
+
+.table-view {
+    -fx-base: white;
+    -fx-border-color: #ddd;
+    -fx-control-inner-background: white;
+    -fx-background-color: white;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 2;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #42539d;
+}
+
+.table-view .column-header, .table-view .filler {
+    -fx-size: 35;
+    -fx-border-width: 0 0 0 0;
+    -fx-background-color: transparent;
+    -fx-border-color:
+        transparent
+        transparent
+        derive(-fx-base, 80%)
+        transparent;
+    -fx-border-insets: 0 10 1 0;
+}
+
+.table-view .column-header .label {
+    -fx-font-family: "Arial";
+    -fx-text-fill: white !important;
+    -fx-alignment: center-left;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: -fx-focus-color;
+}
+
+.table-cell {
+    -fx-font-family: "Arial";
+    -fx-alignment: center-left;
+}
+
+.table-row-cell:hover{
+    -fx-background-color: #eee;
+}
+
+.table-row-cell:empty {
+    -fx-background-color: transparent;
+    -fx-base: transparent;
+    -fx-control-inner-background: transparent;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 0;
+}
+
+.table-row-cell:empty .table-cell {
+    -fx-border-width: 0px;
+}
+
+/*color*/
+.backgroundBlue{
+  -fx-background-color: #3F51B5;
+}
+.backgroundDarkBlue{
+  -fx-background-color: #1A237E;
+  -fx-text-fill: white;
+}
+.backgroundWhite {
+  -fx-background-color: white;
+}
+.backgroundBlack {
+  -fx-background-color: linear-gradient(from 0% 100% to 0% 100%, #373636 0%, #505050 100%);
 }
