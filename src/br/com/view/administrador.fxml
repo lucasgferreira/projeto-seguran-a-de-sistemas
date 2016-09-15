@@ -24,7 +24,7 @@
                   <Font size="18.0" />
                </font></Label>
             <HBox HBox.hgrow="ALWAYS" />
-            <Button mnemonicParsing="false" styleClass="backgroundDarkBlue" text="About" />
+            <Button mnemonicParsing="false" onAction="#onAbout" styleClass="backgroundDarkBlue" text="About" />
             <Button mnemonicParsing="false" onAction="#onLogout" styleClass="backgroundDarkBlue" text="Logout" />
             <Button mnemonicParsing="false" onAction="#onSair" styleClass="backgroundDarkBlue" text="Exit" />
          </children>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="TOP_CENTER" prefHeight="300.0" prefWidth="450.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/null" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.controller.About">
+   <children>
+      <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" styleClass="backgroundBlue">
+         <children>
+            <Label text="Sistema de Autenticação" textFill="WHITE">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding></HBox>
+      <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Label text="Atividade Avaliativa de Segurança de Sistemas">
+               <font>
+                  <Font name="System Bold" size="14.0" />
+               </font>
+            </Label>
+            <HBox>
+               <children>
+                  <Label text="IP: " />
+                  <Label text="Label" fx:id="LBip" />
+               </children>
+            </HBox>
+            <Label text="sistema de autenticação versão 1.0" />
+         </children>
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding></VBox>
+      <Label text="2016-09">
+         <font>
+            <Font size="11.0" />
+         </font></Label>
+   </children>
+   <padding>
+      <Insets bottom="5.0" />
+   </padding>
+</VBox>

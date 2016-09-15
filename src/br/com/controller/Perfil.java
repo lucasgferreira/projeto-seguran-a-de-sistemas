@@ -48,4 +48,5 @@ public class Perfil {
         stage.setWidth(600);
         stage.show();
     }
+
 }

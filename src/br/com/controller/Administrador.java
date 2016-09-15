@@ -8,6 +8,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -28,6 +29,18 @@ public class Administrador {
     }
 
     @FXML
+    private void onAbout(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        Parent root = FXMLLoader.load(getClass().getResource("../view/about.fxml"));
+        stage.setScene(new Scene(root));
+        stage.setWidth(450);
+        stage.setHeight(300);
+        stage.setMaximized(false);
+        stage.setResizable(false);
+        stage.show();
+    }
+
+    @FXML
     private void onLogout(ActionEvent event) throws IOException {
         Node node = (Node) event.getSource();
 
@@ -43,7 +56,8 @@ public class Administrador {
         stage.setOnCloseRequest(event1 -> Platform.exit());
         stage.setTitle("Login");
         stage.setResizable(false);
-        stage.setHeight(300);
+        stage.setMaximized(false);
+        stage.setHeight(320);
         stage.setWidth(600);
         stage.show();
     }
