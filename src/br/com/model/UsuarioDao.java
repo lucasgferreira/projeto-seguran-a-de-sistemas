@@ -82,6 +82,10 @@ public class UsuarioDao extends Dao{
                 ps.setBoolean(4, u.moduloCProperty().getValue());
                 ps.setInt(5, u.getId());
                 ps.execute();
+                Alert a = new Alert(Alert.AlertType.INFORMATION);
+                a.setHeaderText("ATENÇÃO");
+                a.setContentText("Usuário alterado com sucesso!");
+                a.show();
             }
             else {
                 query = "UPDATE `login`.`Usuario` " +
@@ -96,12 +100,11 @@ public class UsuarioDao extends Dao{
                 ps.setBoolean(5, u.moduloCProperty().getValue());
                 ps.setInt(6, u.getId());
                 ps.execute();
+                Alert a = new Alert(Alert.AlertType.INFORMATION);
+                a.setHeaderText("ATENÇÃO");
+                a.setContentText("Senha alterada com sucesso!");
+                a.show();
             }
-
-            Alert a = new Alert(Alert.AlertType.INFORMATION);
-            a.setHeaderText("ATENÇÃO");
-            a.setContentText("Usuário alterado com sucesso!");
-            a.show();
         } catch (SQLException e) {
             Alert a = new Alert(Alert.AlertType.ERROR);
             a.setHeaderText("ERRO");

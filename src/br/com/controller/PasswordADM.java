@@ -1,9 +1,6 @@
 package br.com.controller;
 
-import br.com.model.Md5;
-import br.com.model.UsuarioDao;
 import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
@@ -11,7 +8,8 @@ import javafx.scene.control.PasswordField;
 /**
  * Created by lucas on 21/09/16.
  */
-public class Password {
+public class PasswordADM {
+    public PasswordField PFsenhaatual;
     public PasswordField PFsenha;
     public PasswordField PFconfsenha;
     public Label LBuser;
@@ -23,10 +21,10 @@ public class Password {
         LBuser.setText(u.getUsuario());
     }
     public void onSalvar(ActionEvent actionEvent) {
-        if (!PFsenha.getText().equals(PFconfsenha.getText())){
+        if (PFsenhaatual.getText().isEmpty()){
             Alert a = new Alert(Alert.AlertType.INFORMATION);
             a.setHeaderText("ATENÇÃO");
-            a.setContentText("Senhas não batem!");
+            a.setContentText("Digite a senha atual!");
             a.show();
         }
         if (PFconfsenha.getText().length() < 6){
@@ -35,10 +33,18 @@ public class Password {
             a.setContentText("Digite uma senha com no mínimo 6 dígitos!");
             a.show();
         }
+        if (!PFsenha.getText().equals(PFconfsenha.getText())){
+            Alert a = new Alert(Alert.AlertType.INFORMATION);
+            a.setHeaderText("ATENÇÃO");
+            a.setContentText("Senhas não batem!");
+            a.show();
+        }
+
         else {
-           UsuarioDao ud = new UsuarioDao();
-           u.setSenha(Md5.md5(u.getUsuario()+PFconfsenha.getText()));
-           ud.alterar(u);
+            Alert c = new Alert(Alert.AlertType.INFORMATION);
+            c.setHeaderText("ATENÇÃO");
+            c.setContentText("Selecione um Módulo");
+            c.show();
         }
     }
 }

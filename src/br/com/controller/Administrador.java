@@ -13,6 +13,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.CheckBoxTableCell;
+import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
 import javafx.stage.Stage;
 import java.io.IOException;
@@ -34,6 +35,7 @@ public class Administrador {
 
     public TableColumn<Usuario, Boolean> TCmodulob;
     public TableColumn<Usuario, Boolean> TCmoduloc;
+    public Button BTsenha;
     @FXML
     private TextField TFuser;
     @FXML
@@ -48,6 +50,8 @@ public class Administrador {
         BTsalvar.disableProperty().bind(TVuser.getSelectionModel().selectedItemProperty().isNotNull());
         BTeditar.disableProperty().bind(TVuser.getSelectionModel().selectedItemProperty().isNull());
         BTexcluir.disableProperty().bind(TVuser.getSelectionModel().selectedItemProperty().isNull());
+        BTsenha.disableProperty().bind(TVuser.getSelectionModel().selectedItemProperty().isNull());
+        PFpass.disableProperty().bind(TVuser.getSelectionModel().selectedItemProperty().isNotNull());
 
         listAll();
         TCmodulob.setCellFactory(CheckBoxTableCell.forTableColumn(TCmodulob));
@@ -58,7 +62,6 @@ public class Administrador {
             public void handle(MouseEvent t) {
                 try {
                     if (TVuser.getSelectionModel().getSelectedItem() != null){
-
                         Usuario u = (Usuario) TVuser.getSelectionModel().getSelectedItem();
                         TFuser.setText(u.getUsuario());
                         CBmb.selectedProperty().setValue(u.moduloBProperty().getValue());
@@ -75,6 +78,17 @@ public class Administrador {
 
     public void setUser(Usuario u){
         LBuser.setText(u.getUsuario());
+    }
+    public Usuario getUser(){
+        try {
+            if (TVuser.getSelectionModel().getSelectedItem() != null){
+                Usuario u = (Usuario) TVuser.getSelectionModel().getSelectedItem();
+                return u;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return null;
     }
 
     private void listAll(){
@@ -199,11 +213,29 @@ public class Administrador {
     }
 
 
-    public void onSenha(ActionEvent actionEvent) throws IOException {
-        Stage scene = new Stage();
-        URL arquivoFXML = getClass().getResource("../view/password.fxml");
-        Parent fxmlParent = (Parent) FXMLLoader.load(arquivoFXML);
-        scene.setScene(new Scene(fxmlParent, 450, 200));
-        scene.show();
+    public void onSenha(ActionEvent event) throws IOException {
+        if (TVuser.getSelectionModel().getSelectedItem() != null) {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/password.fxml"));
+            Parent home_page_parent = loader.load();
+
+            Password controller = loader.getController();
+            Usuario u = getUser();
+            controller.setUser(u);
+
+            Scene home_page_scene = new Scene(home_page_parent);
+            Stage stage = new Stage();
+            stage.setScene(home_page_scene);
+            stage.setResizable(false);
+            stage.setMaximized(false);
+            stage.setMinHeight(250);
+            stage.setMinWidth(500);
+            stage.show();
+        }
+        else {
+            Alert a = new Alert(Alert.AlertType.INFORMATION);
+            a.setHeaderText("ATENÇÃO");
+            a.setContentText("selecione um usuário!!!");
+            a.show();
+        }
     }
 }

@@ -2,38 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30a75901-ed1d-4552-abbf-1c31389b00d3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/controller/Password.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/password.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/user.fxml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Dictionary.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/br/com/model/Dictionary.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/controller/PasswordADM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/passwordadm.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/About.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/About.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Administrador.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Administrador.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Login.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Main.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Perfil.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Perfil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Usuario.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Usuario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Dao.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Dao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Md5.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Md5.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/UsuarioDao.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/UsuarioDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/about.fxml" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/about.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/administrador.fxml" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/administrador.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/perfil.fxml" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/perfil.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/style.css" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/About.java" afterPath="$PROJECT_DIR$/src/br/com/controller/About.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Administrador.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Administrador.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Login.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Perfil.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Perfil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Usuario.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Usuario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/model/Dao.java" afterPath="$PROJECT_DIR$/src/br/com/model/Dao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Password.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Password.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" afterPath="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/about.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/about.fxml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/administrador.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/administrador.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/perfil.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/perfil.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/style.css" afterPath="$PROJECT_DIR$/src/br/com/view/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/password.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/password.fxml" />
     </list>
     <ignored path="projeto-seguranca-de-sistemas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -54,61 +35,59 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="23" column="28" selection-start-line="15" selection-start-column="8" selection-end-line="23" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Administrador.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/controller/Administrador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+            <state relative-caret-position="-2163">
+              <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2697#2698#0" expanded="true" />
+                <element signature="e#2743#2744#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Password.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Password.java">
+      <file leaf-file-name="UsuarioDao.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/model/UsuarioDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="password.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/view/password.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
+            <state relative-caret-position="231">
+              <caret line="80" column="65" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="administrador.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/view/administrador.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder">
+      <file leaf-file-name="passwordadm.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/view/passwordadm.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="617">
+              <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordADM.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/controller/PasswordADM.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
+            <state relative-caret-position="1008">
+              <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="40" column="21" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -120,28 +99,33 @@
             <state />
           </provider>
           <provider editor-type-id="text-editor">
-            <state relative-caret-position="1159">
-              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Login.java">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="64" column="29" selection-start-line="49" selection-start-column="16" selection-end-line="64" selection-end-column="29" />
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1474489498802" expanded="true" signature="3500:3523" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="password.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/view/password.fxml">
+          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Perfil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Perfil.java">
+      <file leaf-file-name="Password.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Password.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="627">
-              <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
+            <state relative-caret-position="291">
+              <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -173,29 +157,27 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/br/com/controller/Main.java" />
-        <option value="$PROJECT_DIR$/src/br/com/controller/About.java" />
-        <option value="$PROJECT_DIR$/src/br/com/view/about.fxml" />
-        <option value="$PROJECT_DIR$/src/br/com/model/Dictionary.java" />
-        <option value="$PROJECT_DIR$/src/br/com/model/Dao.java" />
-        <option value="$PROJECT_DIR$/src/br/com/controller/Usuario.java" />
-        <option value="$PROJECT_DIR$/src/br/com/controller/Perfil.java" />
-        <option value="$PROJECT_DIR$/src/br/com/controller/Login.java" />
-        <option value="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" />
         <option value="$PROJECT_DIR$/src/br/com/view/style.css" />
-        <option value="$PROJECT_DIR$/src/br/com/view/perfil.fxml" />
+        <option value="$PROJECT_DIR$/src/br/com/controller/Main.java" />
+        <option value="$PROJECT_DIR$/src/br/com/controller/Login.java" />
+        <option value="$PROJECT_DIR$/src/br/com/view/about.fxml" />
+        <option value="$PROJECT_DIR$/src/br/com/controller/Perfil.java" />
+        <option value="$PROJECT_DIR$/src/br/com/controller/About.java" />
         <option value="$PROJECT_DIR$/src/br/com/view/administrador.fxml" />
-        <option value="$PROJECT_DIR$/src/br/com/view/password.fxml" />
-        <option value="$PROJECT_DIR$/src/br/com/controller/Password.java" />
         <option value="$PROJECT_DIR$/src/br/com/controller/Administrador.java" />
+        <option value="$PROJECT_DIR$/src/br/com/view/passwordadm.fxml" />
+        <option value="$PROJECT_DIR$/src/br/com/view/password.fxml" />
+        <option value="$PROJECT_DIR$/src/br/com/controller/PasswordADM.java" />
+        <option value="$PROJECT_DIR$/src/br/com/controller/Password.java" />
+        <option value="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="45" />
+    <option name="x" value="43" />
     <option name="y" value="24" />
-    <option name="width" value="1321" />
-    <option name="height" value="744" />
+    <option name="width" value="1557" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -222,9 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -311,15 +290,159 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Java" />
+    <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="/opt/SceneBuilder/SceneBuilder" />
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/misc.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/workspace.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/About.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Administrador.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Login.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Main.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Perfil.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Usuario.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Dao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Md5.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/UsuarioDao.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/about.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/administrador.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/perfil.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/style.css</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/controller/About.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/controller/Administrador.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/controller/Login.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/controller/Perfil.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/controller/Usuario.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/model/Dao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/model/UsuarioDao.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/view/about.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/view/administrador.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/view/perfil.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/view/style.css</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/.gitignore</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/controller/Password.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/view/password.fxml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/view/user.fxml</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Dictionary.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/br/com/model/Dictionary.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -643,34 +766,60 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="45" y="24" width="1321" height="744" extended-state="6" />
+    <frame x="43" y="24" width="1557" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763976" sideWeight="0.49726775" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.49726775" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.50897735" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.49102265" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.49414518" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1945098" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.50897735" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32533333" sideWeight="0.49102265" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.49414518" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.49726775" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.50897735" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32666665" sideWeight="0.49102265" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328" sideWeight="0.49414518" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17935142" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -697,6 +846,25 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="19" column="36" selection-start-line="18" selection-start-column="8" selection-end-line="19" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/login.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/view/administrador.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -723,6 +891,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -739,7 +910,8 @@
         <state relative-caret-position="817">
           <caret line="58" column="32" selection-start-line="58" selection-start-column="32" selection-end-line="58" selection-end-column="32" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2743#2744#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -756,17 +928,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2622">
           <caret line="138" column="33" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/user.fxml">
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/perfil.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474489498802" expanded="true" signature="3500:3523" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -854,7 +1029,8 @@
         <state relative-caret-position="684">
           <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2743#2744#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -871,17 +1047,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2622">
           <caret line="138" column="33" selection-start-line="138" selection-start-column="26" selection-end-line="138" selection-end-column="33" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/user.fxml">
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/perfil.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474489498802" expanded="true" signature="3500:3523" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -972,7 +1151,73 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/user.fxml">
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/perfil.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1474489498802" expanded="true" signature="3500:3523" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utilitarios/login MER.png" />
+    <entry file="file://$PROJECT_DIR$/README.md" />
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3045">
+          <caret line="145" column="33" selection-start-line="145" selection-start-column="33" selection-end-line="145" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/com/sun/glass/ui/gtk/GtkApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Perfil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/about.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="45" column="48" selection-start-line="45" selection-start-column="48" selection-end-line="45" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" column="5" selection-start-line="49" selection-start-column="5" selection-end-line="49" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/login.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
@@ -983,200 +1228,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Utilitarios/login MER.png" />
-    <entry file="file://$PROJECT_DIR$/README.md" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/javafx-src.zip!/com/sun/glass/ui/gtk/GtkApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="138" column="0" selection-start-line="138" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/login.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="61" selection-start-line="22" selection-start-column="61" selection-end-line="22" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/about.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="45" column="39" selection-start-line="45" selection-start-column="39" selection-end-line="45" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/controller/About.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="39" column="21" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/model/Dao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/model/Dictionary.java" />
-    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-670">
-          <caret line="19" column="28" selection-start-line="19" selection-start-column="28" selection-end-line="19" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#594#595#0" expanded="false" />
-            <element signature="e#631#632#0" expanded="false" />
-            <element signature="e#659#660#0" expanded="false" />
-            <element signature="e#693#694#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#769#770#0" expanded="false" />
-            <element signature="e#807#808#0" expanded="false" />
-            <element signature="e#839#840#0" expanded="false" />
-            <element signature="e#867#868#0" expanded="false" />
-            <element signature="e#909#910#0" expanded="false" />
-            <element signature="e#943#944#0" expanded="false" />
-            <element signature="e#977#978#0" expanded="false" />
-            <element signature="e#1013#1014#0" expanded="false" />
-            <element signature="e#1061#1062#0" expanded="false" />
-            <element signature="e#1091#1092#0" expanded="false" />
-            <element signature="e#1138#1139#0" expanded="false" />
-            <element signature="e#1179#1180#0" expanded="false" />
-            <element signature="e#1213#1214#0" expanded="false" />
-            <element signature="e#1249#1250#0" expanded="false" />
-            <element signature="e#1297#1298#0" expanded="false" />
-            <element signature="e#1327#1328#0" expanded="false" />
-            <element signature="e#1374#1375#0" expanded="false" />
-            <element signature="e#1415#1416#0" expanded="false" />
-            <element signature="e#1449#1450#0" expanded="false" />
-            <element signature="e#1485#1486#0" expanded="false" />
-            <element signature="e#1533#1534#0" expanded="false" />
-            <element signature="e#1563#1564#0" expanded="false" />
-            <element signature="e#1610#1611#0" expanded="false" />
-            <element signature="e#1651#1652#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/model/Md5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Perfil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="627">
-          <caret line="48" column="32" selection-start-line="48" selection-start-column="32" selection-end-line="48" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/model/UsuarioDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="73" column="31" selection-start-line="73" selection-start-column="31" selection-end-line="73" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/user.fxml">
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="78" selection-start-line="47" selection-start-column="78" selection-end-line="47" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="23" column="28" selection-start-line="15" selection-start-column="8" selection-end-line="23" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/view/perfil.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state relative-caret-position="1159">
-          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="1" selection-end-line="66" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/administrador.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="63" column="26" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/password.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1474489498802" expanded="true" signature="3500:3523" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/controller/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="64" column="29" selection-start-line="49" selection-start-column="16" selection-end-line="64" selection-end-column="29" />
+        <state relative-caret-position="190">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/administrador.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="63" column="42" selection-start-line="63" selection-start-column="42" selection-end-line="63" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/passwordadm.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="617">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/password.fxml">
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="13" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/PasswordADM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/controller/Administrador.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="171" column="0" selection-start-line="171" selection-start-column="0" selection-end-line="171" selection-end-column="0" />
+        <state relative-caret-position="-2163">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#2697#2698#0" expanded="true" />
+            <element signature="e#2743#2744#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/controller/Password.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="31" column="20" selection-start-line="31" selection-start-column="20" selection-end-line="31" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="291">
+          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/model/UsuarioDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="80" column="65" selection-start-line="80" selection-start-column="65" selection-end-line="80" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1367,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1245,7 +1392,7 @@
       </state>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>1.8 (1)</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
