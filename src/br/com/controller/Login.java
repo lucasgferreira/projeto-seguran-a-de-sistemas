@@ -1,9 +1,7 @@
 package br.com.controller;
 
-import br.com.model.Dictionary;
 import br.com.model.Md5;
 import br.com.model.UsuarioDao;
-import javafx.application.Platform;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -16,8 +14,6 @@ import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 
 import java.io.IOException;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * Created by lucas on 08/09/16.
@@ -31,81 +27,61 @@ public class Login {
     @FXML
     private void onLogar(ActionEvent event) throws IOException {
 
-        StringBuilder valida = new StringBuilder();
-        valida.delete(0, valida.length());
+        String valida = null;
+
         System.out.println(Md5.md5(TFusuario.getText()+PFsenha.getText()));
-        if (TFusuario.getText().isEmpty()){
-            valida.append(Dictionary.DigiteUsusario);
-        }
-        if (PFsenha.getText().isEmpty()){
-            valida.append("\n"+Dictionary.DigiteSenha);
-        }
-        if (!valida.toString().isEmpty()){
+        if (TFusuario.getText().isEmpty() || PFsenha.getText().isEmpty()){
             Alert a = new Alert(Alert.AlertType.INFORMATION);
-            a.setHeaderText(Dictionary.error);
-            a.setContentText(valida.toString());
+            a.setHeaderText("ATENÇÃO");
+            a.setContentText("preencha os campos!!");
             a.show();
         }
         else {
             UsuarioDao udao = new UsuarioDao();
-            Usuario u = udao.loga(TFusuario.getText(), PFsenha.getText());
-            if (u.getModuloA() == true){
+            Usuario u = udao.loga(TFusuario.getText(), Md5.md5(TFusuario.getText()+PFsenha.getText()));
+            if (u == null){
+                Alert e = new Alert(Alert.AlertType.INFORMATION);
+                e.setHeaderText("ATENÇÃO");
+                e.setContentText("Usuario ou senha incorretos!!");
+                e.show();
+            }
+            else if (u.moduloAProperty().getValue() == true){
 
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/administrador.fxml"));
-                Parent homePage = loader.load();
+                Parent home_page_parent = loader.load();
 
-                Administrador ad = loader.getController();
-                ad.setUser(u);
+                Administrador controller = loader.getController();
+                controller.setUser(u);
 
-                Node node = (Node) event.getSource();
-
-                Stage stage = (Stage) node.getScene().getWindow();
-                Parent root = null;
-                try {
-                    root = FXMLLoader.load(getClass().getResource("../view/administrador.fxml"));
-                } catch (IOException ex) {
-                    Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
-                }
-                Scene scene = new Scene(root);
-                stage.setScene(scene);
-                stage.setOnCloseRequest(event1 -> Platform.exit());
-                stage.setTitle("Administrador");
+                Scene home_page_scene = new Scene(home_page_parent);
+                Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+                stage.close();
+                stage.setScene(home_page_scene);
+                stage.setTitle("administrador");
                 stage.setResizable(true);
+                stage.setMaximized(true);
                 stage.setMinHeight(480);
                 stage.setMinWidth(640);
                 stage.show();
             }
-            else if (u.getModuloB() == true || u.getModuloC() == true){
+            else if (u.moduloBProperty().getValue() == true || u.moduloCProperty().getValue() == true){
 
-                FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/perfil.fxml"));
-                Parent homePage = loader.load();
+                FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/user.fxml"));
+                Parent home_page_parent = loader.load();
 
-                Perfil pf = loader.getController();
-                pf.setUser(u);
+                Perfil controller = loader.getController();
+                controller.setUser(u);
 
-                Node node = (Node) event.getSource();
-
-                Stage stage = (Stage) node.getScene().getWindow();
-                Parent root = null;
-                try {
-                    root = FXMLLoader.load(getClass().getResource("../view/perfil.fxml"));
-                } catch (IOException ex) {
-                    Logger.getLogger(Login.class.getName()).log(Level.SEVERE, null, ex);
-                }
-                Scene scene = new Scene(root);
-                stage.setScene(scene);
-                stage.setOnCloseRequest(event1 -> Platform.exit());
-                stage.setTitle("Perfil");
+                Scene home_page_scene = new Scene(home_page_parent);
+                Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+                stage.close();
+                stage.setScene(home_page_scene);
+                stage.setTitle("usuário");
                 stage.setResizable(true);
+                stage.setMaximized(true);
                 stage.setMinHeight(480);
                 stage.setMinWidth(640);
                 stage.show();
-            }
-            else if (u == null){
-                Alert e = new Alert(Alert.AlertType.INFORMATION);
-                e.setHeaderText(Dictionary.error);
-                e.setContentText(Dictionary.userPassIncorrect);
-                e.show();
             }
         }
     }

@@ -22,7 +22,7 @@
 }
 /*button*/
 #ok{
-  -fx-background-color:#32CD32;
+  -fx-background-color: #32CD32;
   -fx-background-radius: 6, 6;
   -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
   -fx-text-fill: white;
@@ -87,6 +87,13 @@
   -fx-effect: dropshadow( one-pass-box , #fff , 5 , 0.0 , 0 , 0 );
 }
 
+#btModulo{
+    -fx-background-color: #616161;
+    -fx-text-fill: white;
+}
+#btModulo:hover{
+    -fx-background-color: #757575;
+}
 /*cadastro*/
 
 .combo-box{
@@ -183,6 +190,40 @@
     -fx-border-width: 0px;
 }
 
+/*.table-view .check-box .box{
+    -fx-outer-border: transparent;
+    -fx-body-color: transparent;
+    -fx-background-color: transparent;
+}*/
+
+.check-box{
+-fx-font-family: "Arial";
+-fx-font-size: 12;
+}
+
+.check-box .box{
+    -fx-outer-border: #cadbec;
+    -fx-body-color: white;
+    -fx-background-color:
+      -fx-outer-border,
+      -fx-body-color;
+    -fx-background-insets: 0, 1;
+    -fx-background-radius: 2px, 0px;
+}
+
+.check-box .mark {
+      -fx-shape:"M14.596,2.055L12.455,0C9.687,2.884,6.011,6.714,5.158,7.602L2.055,4.624L0,6.765l5.242,5.037l0.003-0.004
+    l0.003,0.004L14.596,2.055z";
+    -fx-scale-x: 1.5;
+    -fx-scale-y: 1.5;
+    -fx-translate-x: 2px;
+    -fx-translate-y: -2px;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #32CD32;
+}
+
 /*color*/
 .backgroundBlue{
   -fx-background-color: #3F51B5;
@@ -197,3 +238,4 @@
 .backgroundBlack {
   -fx-background-color: linear-gradient(from 0% 100% to 0% 100%, #373636 0%, #505050 100%);
 }
+

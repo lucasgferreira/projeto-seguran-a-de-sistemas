@@ -9,10 +9,10 @@ import java.util.logging.Logger;
  */
 public class Dao {
     /*variaveis de conexão*/
-    private String url = "jdbc:mysql://localhost:3306/login?autoReconnect=true&useSSL=false";
-    private String drive = "com.mysql.jdbc.Driver";
-    private String user = "root";
-    private String password = "mysql";
+    private static final String url = "jdbc:mysql://localhost:3306/login?autoReconnect=true&useSSL=false";
+    private static final String drive = "com.mysql.jdbc.Driver";
+    private static final String user = "root";
+    private static final String password = "mysql";
 
     public Connection connection;
     public PreparedStatement ps;

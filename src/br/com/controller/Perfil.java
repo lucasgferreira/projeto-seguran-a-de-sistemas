@@ -44,8 +44,9 @@ public class Perfil {
         stage.setOnCloseRequest(event1 -> Platform.exit());
         stage.setTitle("Login");
         stage.setResizable(false);
-        stage.setHeight(300);
+        stage.setHeight(320);
         stage.setWidth(600);
+        stage.setMaximized(false);
         stage.show();
     }
 

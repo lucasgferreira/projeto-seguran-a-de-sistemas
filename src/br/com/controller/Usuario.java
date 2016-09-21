@@ -1,15 +1,29 @@
 package br.com.controller;
 
+import javafx.beans.property.BooleanProperty;
+import javafx.beans.property.SimpleBooleanProperty;
 import javafx.event.ActionEvent;
+import javafx.scene.image.ImageView;
 
 /**
  * Created by lucas on 08/09/16.
  */
 public class Usuario {
 
+    private Integer id;
     private String usuario;
     private String senha;
-    private Boolean moduloA, moduloB, moduloC;
+    private BooleanProperty moduloA = new SimpleBooleanProperty();
+    private BooleanProperty moduloB = new SimpleBooleanProperty();
+    private BooleanProperty moduloC = new SimpleBooleanProperty();
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public String getUsuario() {
         return usuario;
@@ -27,27 +41,39 @@ public class Usuario {
         this.senha = senha;
     }
 
-    public Boolean getModuloA() {
+    public boolean isModuloA() {
+        return moduloA.get();
+    }
+
+    public BooleanProperty moduloAProperty() {
         return moduloA;
     }
 
-    public void setModuloA(Boolean moduloA) {
-        this.moduloA = moduloA;
+    public void setModuloA(boolean moduloA) {
+        this.moduloA.set(moduloA);
     }
 
-    public Boolean getModuloB() {
+    public boolean isModuloB() {
+        return moduloB.get();
+    }
+
+    public BooleanProperty moduloBProperty() {
         return moduloB;
     }
 
-    public void setModuloB(Boolean moduloB) {
-        this.moduloB = moduloB;
+    public void setModuloB(boolean moduloB) {
+        this.moduloB.set(moduloB);
     }
 
-    public Boolean getModuloC() {
+    public boolean isModuloC() {
+        return moduloC.get();
+    }
+
+    public BooleanProperty moduloCProperty() {
         return moduloC;
     }
 
-    public void setModuloC(Boolean moduloC) {
-        this.moduloC = moduloC;
+    public void setModuloC(boolean moduloC) {
+        this.moduloC.set(moduloC);
     }
 }
