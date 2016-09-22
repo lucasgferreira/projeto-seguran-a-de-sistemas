@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.stage.Modality;
@@ -30,19 +31,21 @@ public class User {
 
     Usuario u = new Usuario();
 
-    @FXML
-    private void initialize(){
+    public void setUser(Usuario u){
+        this.u = u;
+        LBuser.setText(u.getUsuario());
         if (u.moduloBProperty().getValue() == false){
             BTmodulob.setDisable(true);
+        }
+        else {
+            BTmodulob.setDisable(false);
         }
         if (u.moduloCProperty().getValue() == false){
             BTmoduloc.setDisable(true);
         }
-    }
-
-    public void setUser(Usuario u){
-        this.u = u;
-        LBuser.setText(u.getUsuario());
+        else {
+            BTmoduloc.setDisable(false);
+        }
     }
 
 

@@ -1,38 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30a75901-ed1d-4552-abbf-1c31389b00d3" name="Default" comment="melhorias no projeto">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/controller/PerfilAdmin.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/controller/PerfilUser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/Perfil_user.fxml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/br/com/view/perfil_adm.fxml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Perfil.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/br/com/controller/Perfil.java" afterPath="$PROJECT_DIR$/src/br/com/controller/User.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Administrador.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Administrador.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Login.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Login.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Main.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Usuario.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/controller/Usuario.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Md5.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/Md5.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/UsuarioDao.class" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/model/UsuarioDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="30a75901-ed1d-4552-abbf-1c31389b00d3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Utilitarios/login.sql" afterPath="$PROJECT_DIR$/Utilitarios/login.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/administrador.fxml" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/administrador.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/perfil.fxml" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/perfil.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/style.css" afterPath="$PROJECT_DIR$/out/production/projeto-seguranca-de-sistemas/br/com/view/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Administrador.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Administrador.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Login.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Login.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Password.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Password.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/PasswordADM.java" afterPath="$PROJECT_DIR$/src/br/com/controller/PasswordADM.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/Usuario.java" afterPath="$PROJECT_DIR$/src/br/com/controller/Usuario.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" afterPath="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/administrador.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/administrador.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/password.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/password.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/passwordadm.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/passwordadm.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/perfil.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/perfil.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/style.css" afterPath="$PROJECT_DIR$/src/br/com/view/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/view/user.fxml" afterPath="$PROJECT_DIR$/src/br/com/view/user.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/br/com/controller/User.java" afterPath="$PROJECT_DIR$/src/br/com/controller/User.java" />
     </list>
     <ignored path="projeto-seguranca-de-sistemas.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -53,17 +24,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Md5.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/model/Md5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/view/style.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="427">
@@ -73,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UsuarioDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/model/UsuarioDao.java">
+      <file leaf-file-name="Administrador.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Administrador.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="-551">
+              <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -96,32 +57,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="passwordadm.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/view/passwordadm.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="49" column="30" selection-start-line="49" selection-start-column="30" selection-end-line="49" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perfil.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/view/perfil.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="543">
-              <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="user.fxml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/br/com/view/user.fxml">
           <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
@@ -130,19 +65,6 @@
           <provider editor-type-id="text-editor">
             <state relative-caret-position="304">
               <caret line="43" column="31" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="perfil_adm.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/view/perfil_adm.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="62" column="19" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -161,14 +83,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="administrador.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/br/com/view/administrador.fxml">
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
-            <state />
+      <file leaf-file-name="Login.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="36" column="21" selection-start-line="33" selection-start-column="12" selection-end-line="36" selection-end-column="21" />
+              <folding />
+            </state>
           </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+        </entry>
+      </file>
+      <file leaf-file-name="User.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/br/com/controller/User.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="166">
+              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Usuario.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/br/com/controller/Usuario.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -215,7 +154,6 @@
         <option value="$PROJECT_DIR$/src/br/com/controller/Main.java" />
         <option value="$PROJECT_DIR$/src/br/com/controller/PerfilAdmin.java" />
         <option value="$PROJECT_DIR$/src/br/com/controller/PerfilUser.java" />
-        <option value="$PROJECT_DIR$/src/br/com/controller/User.java" />
         <option value="$PROJECT_DIR$/src/br/com/controller/Usuario.java" />
         <option value="$PROJECT_DIR$/src/br/com/model/UsuarioDao.java" />
         <option value="$PROJECT_DIR$/src/br/com/view/password.fxml" />
@@ -224,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/br/com/view/perfil_adm.fxml" />
         <option value="$PROJECT_DIR$/src/br/com/view/Perfil_user.fxml" />
         <option value="$PROJECT_DIR$/src/br/com/view/style.css" />
+        <option value="$PROJECT_DIR$/src/br/com/controller/User.java" />
       </list>
     </option>
   </component>
@@ -800,7 +739,14 @@
       <option name="project" value="LOCAL" />
       <updated>1474489407258</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="melhorias no projeto">
+      <created>1474518745186</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1474518745186</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -823,7 +769,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32686085" sideWeight="0.50897735" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32608697" sideWeight="0.49102265" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.49102265" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32763976" sideWeight="0.49414518" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847896" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -881,9 +827,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="criação da tela de administrador e de perfil" />
-    <MESSAGE value="melhorias no projeto" />
     <MESSAGE value="criação da tela de perfil" />
-    <option name="LAST_COMMIT_MESSAGE" value="criação da tela de perfil" />
+    <MESSAGE value="melhorias no projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="melhorias no projeto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1163,22 +1109,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Administrador.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="912">
-          <caret line="61" column="41" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/controller/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
@@ -1216,28 +1146,6 @@
         <state relative-caret-position="19">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/controller/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="e#2427#2428#0" expanded="true" />
-            <element signature="e#2458#2459#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="4" column="0" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding>
-            <element signature="e#499#500#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1331,6 +1239,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/view/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="237" column="45" selection-start-line="237" selection-start-column="45" selection-end-line="237" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Administrador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-551">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/br/com/view/user.fxml">
       <provider selected="true" editor-type-id="JavaFX-Scene-Builder">
         <state />
@@ -1342,10 +1266,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/br/com/view/style.css">
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="237" column="45" selection-start-line="237" selection-start-column="45" selection-end-line="237" selection-end-column="45" />
+        <state relative-caret-position="285">
+          <caret line="36" column="21" selection-start-line="33" selection-start-column="12" selection-end-line="36" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/br/com/controller/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="166">
+          <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
           <folding />
         </state>
       </provider>
