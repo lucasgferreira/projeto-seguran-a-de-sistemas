@@ -13,11 +13,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.CheckBoxTableCell;
-import javafx.scene.image.Image;
 import javafx.scene.input.MouseEvent;
+import javafx.stage.Modality;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import java.io.IOException;
-import java.net.URL;
 import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -27,23 +27,34 @@ import java.util.logging.Logger;
  */
 public class Administrador {
 
-    public Button BTnovo;
-    public Button BTsalvar;
-    public Button BTeditar;
-    public Button BTexcluir;
-    public TableView<Usuario> TVuser;
+    @FXML
+    private Button BTnovo;
+    @FXML
+    private Button BTsalvar;
+    @FXML
+    private Button BTeditar;
+    @FXML
+    private Button BTexcluir;
+    @FXML
+    private TableView<Usuario> TVuser;
 
-    public TableColumn<Usuario, Boolean> TCmodulob;
-    public TableColumn<Usuario, Boolean> TCmoduloc;
-    public Button BTsenha;
+    @FXML
+    private TableColumn<Usuario, Boolean> TCmodulob;
+    @FXML
+    private TableColumn<Usuario, Boolean> TCmoduloc;
+    @FXML
+    private Button BTsenha;
     @FXML
     private TextField TFuser;
     @FXML
     private PasswordField PFpass;
     @FXML
     private Label LBuser;
-    public CheckBox CBmb;
-    public CheckBox CBmc;
+    @FXML
+    private CheckBox CBmb;
+    @FXML
+    private CheckBox CBmc;
+    Usuario us = new Usuario();
 
     @FXML
     private void initialize(){
@@ -77,8 +88,10 @@ public class Administrador {
 
 
     public void setUser(Usuario u){
+        this.us = u;
         LBuser.setText(u.getUsuario());
     }
+
     public Usuario getUser(){
         try {
             if (TVuser.getSelectionModel().getSelectedItem() != null){
@@ -103,6 +116,8 @@ public class Administrador {
         Stage stage = new Stage();
         Parent root = FXMLLoader.load(getClass().getResource("../view/about.fxml"));
         stage.setScene(new Scene(root));
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node)event.getSource()).getScene().getWindow() );
         stage.setWidth(450);
         stage.setHeight(300);
         stage.setMaximized(false);
@@ -183,7 +198,36 @@ public class Administrador {
 
     @FXML
     private void onEditar() {
+        if (TFuser.getText().isEmpty()){
+            Alert a = new Alert(Alert.AlertType.INFORMATION);
+            a.setHeaderText("ATENÇÃO");
+            a.setContentText("Digite o usuário!");
+            a.show();
+        }
 
+        else if (CBmb.isSelected() || CBmc.isSelected()){
+            try {
+                if (TVuser.getSelectionModel().getSelectedItem() != null){
+                    UsuarioDao ud = new UsuarioDao();
+                    Usuario u = (Usuario) TVuser.getSelectionModel().getSelectedItem();
+                    u.setUsuario(TFuser.getText());
+                    u.setModuloA(false);
+                    u.setModuloB(CBmb.selectedProperty().getValue());
+                    u.setModuloC(CBmc.selectedProperty().getValue());
+                    ud.alterar(u);
+                    listAll();
+                }
+
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        }
+        else {
+            Alert c = new Alert(Alert.AlertType.INFORMATION);
+            c.setHeaderText("ATENÇÃO");
+            c.setContentText("Selecione um Módulo");
+            c.show();
+        }
     }
 
     @FXML
@@ -205,37 +249,39 @@ public class Administrador {
         }
     }
 
-    public void onPerfil() {
-        Alert a = new Alert(Alert.AlertType.INFORMATION);
-        a.setHeaderText("ATENÇÃO");
-        a.setContentText("");
-        a.show();
-    }
-
-
     public void onSenha(ActionEvent event) throws IOException {
         if (TVuser.getSelectionModel().getSelectedItem() != null) {
+            Usuario u = (Usuario) TVuser.getSelectionModel().getSelectedItem();
+            Stage stage = new Stage();
             FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/password.fxml"));
-            Parent home_page_parent = loader.load();
+            Parent root = loader.load();
 
             Password controller = loader.getController();
-            Usuario u = getUser();
             controller.setUser(u);
-
-            Scene home_page_scene = new Scene(home_page_parent);
-            Stage stage = new Stage();
-            stage.setScene(home_page_scene);
-            stage.setResizable(false);
-            stage.setMaximized(false);
+            stage.setScene(new Scene(root));
+            stage.initStyle(StageStyle.UNDECORATED);
+            stage.initModality(Modality.WINDOW_MODAL);
+            stage.initOwner(((Node)event.getSource()).getScene().getWindow() );
             stage.setMinHeight(250);
             stage.setMinWidth(500);
             stage.show();
         }
-        else {
-            Alert a = new Alert(Alert.AlertType.INFORMATION);
-            a.setHeaderText("ATENÇÃO");
-            a.setContentText("selecione um usuário!!!");
-            a.show();
-        }
+    }
+
+    public void onPerfil(ActionEvent event) throws IOException {
+        Stage stage = new Stage();
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/perfil_adm.fxml"));
+        Parent root = loader.load();
+
+        UsuarioDao udao = new UsuarioDao();
+        us = udao.loga(us.getUsuario(), us.getSenha());
+
+        PerfilAdmin controller = loader.getController();
+        controller.setUser(us);
+        stage.setScene(new Scene(root));
+        stage.initStyle(StageStyle.UNDECORATED);
+        stage.initModality(Modality.WINDOW_MODAL);
+        stage.initOwner(((Node)event.getSource()).getScene().getWindow() );
+        stage.show();
     }
 }

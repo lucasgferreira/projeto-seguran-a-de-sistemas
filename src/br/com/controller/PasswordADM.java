@@ -1,18 +1,27 @@
 package br.com.controller;
 
+import br.com.model.Md5;
+import br.com.model.UsuarioDao;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.scene.Node;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
+import javafx.stage.Stage;
 
 /**
  * Created by lucas on 21/09/16.
  */
 public class PasswordADM {
-    public PasswordField PFsenhaatual;
-    public PasswordField PFsenha;
-    public PasswordField PFconfsenha;
-    public Label LBuser;
+    @FXML
+    private PasswordField PFsenhaatual;
+    @FXML
+    private PasswordField PFsenha;
+    @FXML
+    private PasswordField PFconfsenha;
+    @FXML
+    private Label LBuser;
     Usuario u = new Usuario();
 
 
@@ -20,7 +29,8 @@ public class PasswordADM {
         this.u = u;
         LBuser.setText(u.getUsuario());
     }
-    public void onSalvar(ActionEvent actionEvent) {
+
+    public void onSalvar(ActionEvent event) {
         if (PFsenhaatual.getText().isEmpty()){
             Alert a = new Alert(Alert.AlertType.INFORMATION);
             a.setHeaderText("ATENÇÃO");
@@ -41,10 +51,24 @@ public class PasswordADM {
         }
 
         else {
-            Alert c = new Alert(Alert.AlertType.INFORMATION);
-            c.setHeaderText("ATENÇÃO");
-            c.setContentText("Selecione um Módulo");
-            c.show();
+            UsuarioDao ud = new UsuarioDao();
+            if (ud.loga(u.getUsuario(), u.getSenha()) == null){
+                Alert e = new Alert(Alert.AlertType.INFORMATION);
+                e.setHeaderText("ATENÇÃO");
+                e.setContentText("Senha incorreta!!");
+                e.show();
+            }
+            else {
+                u.setSenha(Md5.md5(u.getUsuario() + PFconfsenha.getText()));
+                ud.alterarSenha(u);
+                Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+                stage.close();
+            }
         }
+    }
+
+    public void onClose(ActionEvent event) {
+        Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        stage.close();
     }
 }

@@ -54,12 +54,13 @@ public class Login {
                 controller.setUser(u);
 
                 Scene home_page_scene = new Scene(home_page_parent);
-                Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-                stage.close();
+                Node node = (Node) event.getSource();
+
+                Stage stage = (Stage) node.getScene().getWindow();
+
                 stage.setScene(home_page_scene);
-                stage.setTitle("administrador");
-                stage.setResizable(true);
                 stage.setMaximized(true);
+                stage.setResizable(true);
                 stage.setMinHeight(480);
                 stage.setMinWidth(640);
                 stage.show();
@@ -69,14 +70,15 @@ public class Login {
                 FXMLLoader loader = new FXMLLoader(getClass().getResource("../view/user.fxml"));
                 Parent home_page_parent = loader.load();
 
-                Perfil controller = loader.getController();
+                User controller = loader.getController();
                 controller.setUser(u);
 
                 Scene home_page_scene = new Scene(home_page_parent);
-                Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-                stage.close();
+                Node node = (Node) event.getSource();
+
+                Stage stage = (Stage) node.getScene().getWindow();
+
                 stage.setScene(home_page_scene);
-                stage.setTitle("usuário");
                 stage.setResizable(true);
                 stage.setMaximized(true);
                 stage.setMinHeight(480);

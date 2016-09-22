@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1">
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="500.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.102-ea" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" styleClass="backgroundBlue">
          <children>
@@ -42,7 +42,7 @@
                   <Label text="Usuario" />
                   <Label text="Senha" GridPane.rowIndex="1" />
                   <TextField promptText="usuario" GridPane.columnIndex="1" />
-                  <Button alignment="BOTTOM_LEFT" mnemonicParsing="false" prefWidth="350.0" styleClass="backgroundWhite" text="****" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Button id="backgroundBorder" alignment="BOTTOM_LEFT" mnemonicParsing="false" prefWidth="350.0" styleClass="backgroundWhite" text="****" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" spacing="5.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <children>
                         <Button id="buttonRemove" alignment="CENTER_RIGHT" cancelButton="true" mnemonicParsing="false" prefWidth="95.0" text="cancelar" />

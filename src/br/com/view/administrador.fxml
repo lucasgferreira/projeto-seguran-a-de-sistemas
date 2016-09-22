@@ -28,7 +28,7 @@
             <HBox HBox.hgrow="ALWAYS" />
             <Button mnemonicParsing="false" onAction="#onPerfil" styleClass="backgroundDarkBlue" text="Perfil" />
             <Button mnemonicParsing="false" onAction="#onAbout" styleClass="backgroundDarkBlue" text="About" />
-            <Button mnemonicParsing="false" onAction="#onLogout" styleClass="backgroundDarkBlue" text="Logout" />
+            <Button id="buttonLogout" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#onLogout" prefWidth="80.0" styleClass="backgroundDarkBlue" text="Logout" />
             <Button mnemonicParsing="false" onAction="#onSair" styleClass="backgroundDarkBlue" text="Exit" />
          </children>
          <padding>
@@ -54,14 +54,14 @@
                         <Label text="Usuário" />
                         <Label text="Alterar senha" GridPane.rowIndex="2" />
                         <TextField fx:id="TFuser" promptText="usuário" GridPane.columnIndex="1" />
-                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="10.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                        <PasswordField fx:id="PFpass" promptText="senha" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <HBox alignment="CENTER_LEFT" prefHeight="100.0" prefWidth="200.0" spacing="35.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                            <children>
                               <CheckBox fx:id="CBmb" mnemonicParsing="false" text="Módulo B" />
                               <CheckBox fx:id="CBmc" mnemonicParsing="false" text="Módulo C" />
                            </children>
                         </HBox>
-                        <Button fx:id="BTsenha" mnemonicParsing="false" onAction="#onSenha" prefWidth="100.0" text="****" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" />
-                        <PasswordField fx:id="PFpass" promptText="senha" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                        <Button id="backgroundBorder" fx:id="BTsenha" mnemonicParsing="false" onAction="#onSenha" prefWidth="100.0" styleClass="backgroundWhite" text="****" GridPane.columnIndex="1" GridPane.hgrow="ALWAYS" GridPane.rowIndex="2" />
                         <Label text="Senha" GridPane.rowIndex="1" />
                      </children>
                   </GridPane>

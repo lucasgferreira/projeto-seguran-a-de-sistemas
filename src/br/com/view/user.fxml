@@ -8,7 +8,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<VBox alignment="TOP_CENTER" prefHeight="480.0" prefWidth="640.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.controller.Perfil">
+<VBox alignment="TOP_CENTER" prefHeight="480.0" prefWidth="640.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8.0.102-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.com.controller.User">
    <children>
       <HBox id="bgperfil" alignment="CENTER_RIGHT" minHeight="100.0" spacing="5.0" styleClass="backgroundBlue">
          <children>
@@ -24,7 +24,9 @@
             </Label>
             <HBox alignment="CENTER_RIGHT" spacing="5.0" HBox.hgrow="ALWAYS">
                <children>
-                  <Button id="buttonLogout" mnemonicParsing="false" onAction="#onLogout" prefWidth="100.0" text="Logout" />
+                  <Button onAction="#onPerfil" mnemonicParsing="false" styleClass="backgroundDarkBlue" text="Perfil" />
+                  <Button onAction="#onLogout" id="buttonLogout" alignment="CENTER_RIGHT" mnemonicParsing="false" prefWidth="80.0" styleClass="backgroundDarkBlue" text="Logout" />
+                  <Button onAction="#onExit" mnemonicParsing="false" styleClass="backgroundDarkBlue" text="Exit" />
                </children>
             </HBox>
          </children>
@@ -34,12 +36,12 @@
       </HBox>
       <FlowPane alignment="CENTER" hgap="50.0" prefHeight="200.0" prefWidth="200.0" vgap="20.0" VBox.vgrow="ALWAYS">
          <children>
-            <Button id="btModulo" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="MÓDULO B">
+            <Button fx:id="BTmodulob" id="btModulo" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="MÓDULO B">
                <font>
                   <Font size="24.0" />
                </font>
             </Button>
-            <Button id="btModulo" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="MÓDULO C">
+            <Button fx:id="BTmoduloc" id="btModulo" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" text="MÓDULO C">
                <font>
                   <Font size="24.0" />
                </font>

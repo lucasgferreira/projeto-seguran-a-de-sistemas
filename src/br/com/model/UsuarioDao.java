@@ -2,7 +2,6 @@ package br.com.model;
 
 import br.com.controller.Usuario;
 import javafx.scene.control.Alert;
-
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -25,6 +24,7 @@ public class UsuarioDao extends Dao{
             ResultSet rs = ps.executeQuery();
 
             if (rs.first()){
+                u.setId(rs.getInt("idUsuario"));
                 u.setUsuario(rs.getString("nome"));
                 u.setSenha(rs.getString("senha"));
                 u.setModuloA(rs.getBoolean("moduloA"));
@@ -71,10 +71,11 @@ public class UsuarioDao extends Dao{
         try {
             abrirConexao();
             String query;
-            if (u.getSenha() == null){
+
                 query = "UPDATE `login`.`Usuario` " +
                         "SET `nome`=?, `moduloA`=?, `moduloB`=?, `moduloC`=? " +
                         "WHERE `idUsuario`=?;";
+
                 ps = (PreparedStatement) connection.prepareStatement(query);
                 ps.setString(1, u.getUsuario());
                 ps.setBoolean(2, u.moduloAProperty().getValue());
@@ -86,29 +87,37 @@ public class UsuarioDao extends Dao{
                 a.setHeaderText("ATENÇÃO");
                 a.setContentText("Usuário alterado com sucesso!");
                 a.show();
-            }
-            else {
-                query = "UPDATE `login`.`Usuario` " +
-                        "SET `nome`=?, `senha`=?, `moduloA`=?, `moduloB`=?, `moduloC`=? " +
-                        "WHERE `idUsuario`=?;";
 
-                ps = (PreparedStatement) connection.prepareStatement(query);
-                ps.setString(1, u.getUsuario());
-                ps.setString(2, u.getSenha());
-                ps.setBoolean(3, u.moduloAProperty().getValue());
-                ps.setBoolean(4, u.moduloBProperty().getValue());
-                ps.setBoolean(5, u.moduloCProperty().getValue());
-                ps.setInt(6, u.getId());
-                ps.execute();
-                Alert a = new Alert(Alert.AlertType.INFORMATION);
-                a.setHeaderText("ATENÇÃO");
-                a.setContentText("Senha alterada com sucesso!");
-                a.show();
-            }
         } catch (SQLException e) {
             Alert a = new Alert(Alert.AlertType.ERROR);
             a.setHeaderText("ERRO");
             a.setContentText("erro ao alterar usuário, tente novamente!");
+            a.show();
+            System.out.print(e.getMessage());
+        }
+    }
+
+    public void alterarSenha(Usuario u){
+        try {
+            abrirConexao();
+            String query;
+
+                query = "UPDATE `login`.`Usuario` " +
+                        "SET `senha`=? WHERE `idUsuario`=?;";
+
+                ps = (PreparedStatement) connection.prepareStatement(query);
+                ps.setString(1, u.getSenha());
+                ps.setInt(2, u.getId());
+                ps.execute();
+
+            Alert a = new Alert(Alert.AlertType.INFORMATION);
+            a.setHeaderText("ATENÇÃO");
+            a.setContentText("Senha alterada com sucesso!");
+            a.show();
+        } catch (SQLException e) {
+            Alert a = new Alert(Alert.AlertType.ERROR);
+            a.setHeaderText("ERRO");
+            a.setContentText("erro ao alterar senha, tente novamente!");
             a.show();
             e.printStackTrace();
         }

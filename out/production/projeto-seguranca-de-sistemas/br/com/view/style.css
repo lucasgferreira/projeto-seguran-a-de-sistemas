@@ -75,16 +75,11 @@
 }
 
 #buttonLogout {
-  -fx-background-color: transparent;
   -fx-text-fill: white;
   -fx-background-image: url("img/logout.png");
   -fx-background-repeat: stretch;
   -fx-background-size: 16 16;
   -fx-background-position: 10% center;
-}
-
-#buttonLogout:hover {
-  -fx-effect: dropshadow( one-pass-box , #fff , 5 , 0.0 , 0 , 0 );
 }
 
 #btModulo{
@@ -237,5 +232,9 @@
 }
 .backgroundBlack {
   -fx-background-color: linear-gradient(from 0% 100% to 0% 100%, #373636 0%, #505050 100%);
+}
+#backgroundBorder {
+  -fx-background-color: white;
+  -fx-effect: dropshadow(three-pass-box, #aaa, 2, 0, 0, 0);
 }
 

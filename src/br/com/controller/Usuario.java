@@ -2,8 +2,6 @@ package br.com.controller;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.SimpleBooleanProperty;
-import javafx.event.ActionEvent;
-import javafx.scene.image.ImageView;
 
 /**
  * Created by lucas on 08/09/16.
