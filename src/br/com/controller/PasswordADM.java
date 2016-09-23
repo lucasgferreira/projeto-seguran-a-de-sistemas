@@ -59,7 +59,7 @@ public class PasswordADM {
                 e.show();
             }
             else {
-                u.setSenha(Md5.md5(u.getUsuario() + PFconfsenha.getText()));
+                u.setSenha(Md5.md5(PFconfsenha.getText()));
                 ud.alterarSenha(u);
                 Stage stage = (Stage) ((Node) event.getSource()).getScene().getWindow();
                 stage.close();

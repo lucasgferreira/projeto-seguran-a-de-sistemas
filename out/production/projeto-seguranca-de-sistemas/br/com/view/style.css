@@ -82,6 +82,16 @@
   -fx-background-position: 10% center;
 }
 
+#buttonReload{
+  -fx-background-color:#32CD32;
+  -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.4) , 5, 0.0 , 0 , 1 );
+  -fx-text-fill: white;
+  -fx-background-image: url("img/reload_white.png");
+  -fx-background-repeat: stretch;
+  -fx-background-size: 16 16;
+  -fx-background-position: 10% center;
+}
+
 #btModulo{
     -fx-background-color: #616161;
     -fx-text-fill: white;

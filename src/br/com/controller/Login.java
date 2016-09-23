@@ -29,7 +29,7 @@ public class Login {
 
         String valida = null;
 
-        System.out.println(Md5.md5(TFusuario.getText()+PFsenha.getText()));
+        System.out.println(Md5.md5(PFsenha.getText()));
         if (TFusuario.getText().isEmpty() || PFsenha.getText().isEmpty()){
             Alert a = new Alert(Alert.AlertType.INFORMATION);
             a.setHeaderText("ATENÇÃO");
@@ -38,7 +38,7 @@ public class Login {
         }
         else {
             UsuarioDao udao = new UsuarioDao();
-            Usuario u = udao.loga(TFusuario.getText(), Md5.md5(TFusuario.getText()+PFsenha.getText()));
+            Usuario u = udao.loga(TFusuario.getText(), Md5.md5(PFsenha.getText()));
             if (u == null){
                 Alert e = new Alert(Alert.AlertType.INFORMATION);
                 e.setHeaderText("ATENÇÃO");

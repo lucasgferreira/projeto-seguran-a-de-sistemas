@@ -10,6 +10,7 @@ import java.security.NoSuchAlgorithmException;
 public class Md5 {
 
     public static String md5(String s) {
+        s.concat("1%1cAu!g+>K53PY"); //tecnica de salt
         try {
             MessageDigest m = MessageDigest.getInstance("MD5");
             m.update(s.getBytes(), 0, s.length());

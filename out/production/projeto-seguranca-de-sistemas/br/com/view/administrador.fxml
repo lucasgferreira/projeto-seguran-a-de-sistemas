@@ -71,13 +71,13 @@
                </padding>
             </VBox>
              <HBox id="backgroundBox" alignment="CENTER" maxHeight="40.0" maxWidth="450.0" minHeight="40.0" minWidth="450.0" spacing="2.0" styleClass="backgroundWhite" VBox.vgrow="ALWAYS">
-                 <Button id="buttonNew" fx:id="BTnovo" mnemonicParsing="false" onAction="#onNovo" prefWidth="100.0" text="Novo" />
+                 <Button id="buttonReload" fx:id="BTnovo" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#onNovo" prefWidth="100.0" text="Atualizar" />
                  <Separator orientation="VERTICAL">
                      <HBox.margin>
                          <Insets left="3.0" />
                      </HBox.margin>
                  </Separator>
-               <Button id="buttonConclude" fx:id="BTsalvar" mnemonicParsing="false" onAction="#onSalvar" prefWidth="100.0" text="Salvar" />
+               <Button id="buttonConclude" fx:id="BTsalvar" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#onSalvar" prefWidth="100.0" text="Cadastrar" />
                  <Separator orientation="VERTICAL">
                   <HBox.margin>
                      <Insets left="3.0" />
@@ -96,7 +96,7 @@
              </HBox>
              <TableView fx:id="TVuser" prefHeight="200.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
                  <columns>
-                     <TableColumn prefWidth="75.0" text="Usuário">
+                     <TableColumn prefWidth="75.0" text="USUÁRIO">
                          <cellValueFactory>
                             <PropertyValueFactory property="usuario" />
                          </cellValueFactory>

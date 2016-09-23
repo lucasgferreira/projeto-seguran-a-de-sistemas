@@ -157,9 +157,11 @@ public class Administrador {
     private void onNovo() {
         TVuser.getSelectionModel().clearSelection();
         TFuser.clear();
+        TFuser.requestFocus();
         PFpass.clear();
         CBmb.selectedProperty().setValue(false);
         CBmc.selectedProperty().setValue(false);
+        listAll();
     }
 
     @FXML
