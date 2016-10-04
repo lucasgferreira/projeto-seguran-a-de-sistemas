@@ -1,3 +1,5 @@
+CREATE DATABASE  IF NOT EXISTS `login` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `login`;
 -- MySQL dump 10.13  Distrib 5.7.15, for Linux (x86_64)
 --
 -- Host: localhost    Database: login
@@ -42,6 +44,14 @@ LOCK TABLES `Usuario` WRITE;
 INSERT INTO `Usuario` VALUES (1,'adm','9a787d4d6ab18460da19d0df1aeabeec',1,0,0),(2,'ana','8c984ec2ea45f25d859fa90e18036553',0,0,1),(3,'marcos','dab4f16a0433e978c6392d4c5567ea77',0,1,0),(4,'lucas','d8578edf8458ce06fbc5bb76a58c5ca4',0,1,0),(5,'bruna','027b0723fd36d6b51cac67c689a105a3',0,1,1),(6,'joão','8c32e5048bc4fbfc5dc53c89a36c0812',0,1,1),(7,'amanda','7095efff1b96db48182229149a499510',0,0,1),(8,'cristiane','51237933d5d448b50b64f690d91e3706',0,1,0),(9,'pedro','74edec67c202e89f29114bdca031fb87',0,1,0),(10,'maria','a89d9e36227e953d4fbc3acc9e35d843',0,0,1),(11,'joana','388eea813f0a01a6ff2c6b5f1b609603',0,0,1),(12,'carlos','ce8fa0b74f3d6a8a9225624f2efce638',0,1,0),(13,'bruno','d531ef516ffd5b1e22ed5ccd9a020487',0,0,1),(14,'josé','6701065aff0d767920f79beed96bc79a',0,1,0);
 /*!40000 ALTER TABLE `Usuario` ENABLE KEYS */;
 UNLOCK TABLES;
+
+--
+-- Dumping events for database 'login'
+--
+
+--
+-- Dumping routines for database 'login'
+--
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -52,4 +62,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2016-09-22  1:31:11
+-- Dump completed on 2016-10-04 19:06:18
